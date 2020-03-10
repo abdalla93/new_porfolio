@@ -1,5 +1,5 @@
-$primary-color: #fff;
-$secondary-color: #4272db;
+$primary-color: #444;
+$secondary-color: #1e77c0;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
 $background-opacity: 0.9;
@@ -53,7 +53,7 @@ $background-opacity: 0.9;
   }
 }
 @mixin mediaXl {
-  @media screen and (min-width: 1171x) {
+  @media screen and (min-width: 1171px) {
     @content;
   }
 }
